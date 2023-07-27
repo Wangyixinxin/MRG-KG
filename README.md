@@ -22,4 +22,9 @@ Note: The generation model used in our paper is from [R2Gen](https://github.com/
 ### Citation
 If you find this paper, knowledge graph, or code useful for your research, please cite our paper:
 ```
-
+@article{wang2023rethinking,
+  title={Rethinking Medical Report Generation: Disease Revealing Enhancement with Knowledge Graph},
+  author={Wang, Yixin and Lin, Zihao and Dong, Haoyu},
+  journal={arXiv preprint arXiv:2307.12526},
+  year={2023}
+}
