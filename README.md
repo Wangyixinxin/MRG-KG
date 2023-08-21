@@ -15,7 +15,7 @@ Aug_and_Eval.ipynb
 ```
 > You can download the [IU-Xray](https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university) any other datasets to perform a disease augmentation.
 
-> To augment your dataset, please refer to [augmentation_to_count_sent()]() function.
+> To augment your dataset, please refer to [augmentation_to_count_sent()](https://github.com/Wangyixinxin/MRG-KG/blob/bdbd78b115b75f86b99ff97c8ca61faa07a5295f/Aug_and_Eval.ipynb#L1982) function.
 
 > Some analysis in our paper can be found, such as finding sentences w or w/o diseases, building disease pool/normal pool, and counting disease occurrences.
 
