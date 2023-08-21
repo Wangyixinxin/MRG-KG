@@ -14,13 +14,22 @@ You can download our Disease Knowledge Graph in JSON format.
 Aug_and_Eval.ipynb
 ```
 > You can download the [IU-Xray](https://www.kaggle.com/datasets/raddar/chest-xrays-indiana-university) any other datasets to perform a disease augmentation.
-> To augment your dataset, please refer to augmentation_to_count_sent() function.
+
+> To augment your dataset, please refer to [augmentation_to_count_sent()]() function.
+
 > Some analysis in our paper can be found, such as finding sentences w or w/o diseases, building disease pool/normal pool, and counting disease occurrences.
 
-Note: The generation model used in our paper is from [R2Gen](https://github.com/cuhksz-nlp/R2Gen)
 
 ## DOR and DS evaluation scores
-> The proposed DS and DOR scores can be found in the [Evaluation](https://github.com/Wangyixinxin/MRG-KG/blob/21253cea19d9b6d0630b80091b91d4994a10d86a/Aug_and_Eval.ipynb#L2489) section in Augment_disease.ipynb
+```
+Aug_and_Eval.ipynb
+```
+> The proposed DS and DOR scores can be found in the [Evaluation](https://github.com/Wangyixinxin/MRG-KG/blob/21253cea19d9b6d0630b80091b91d4994a10d86a/Aug_and_Eval.ipynb#L2489) section.
+
+> Codes to generate Figure 1 (disease and sentence statistics) are also included.
+
+
+Note: The generation model used in our paper is from [R2Gen](https://github.com/cuhksz-nlp/R2Gen). Feel free to train it on the augmented dataset and evaluate the results using new scores.
 
 ### Citation
 If you find this paper, knowledge graph, or code useful for your research, please cite our paper:
