@@ -31,6 +31,8 @@ Aug_and_Eval.ipynb
 
 Note: The generation model used in our paper is from [R2Gen](https://github.com/cuhksz-nlp/R2Gen). Feel free to train it on the augmented dataset and evaluate the results using new scores.
 
+**Update: We updated the implementation of DOR to avoid divide-by-zero issue.
+
 ### Citation
 If you find this paper, knowledge graph, or code useful for your research, please cite our paper:
 ```
